@@ -1,0 +1,29 @@
+.var-highlight {
+  color: #C0AD60;
+}
+
+.string-highlight {
+  color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter {
+  font-size: 2em;
+  margin: 0;
+  font-family: "Courier New";
+  margin-left: -28%;
+  padding-top: 5%;
+  margin-bottom: 4%;
+
+}
+#typewriter:after {
+  content: "|";
+  animation: blink 500ms linear infinite alternate;
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=styles.css.map */
